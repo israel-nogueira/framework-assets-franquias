@@ -10,13 +10,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta content="Premium Multipurpose Admin & Dashboard Template" name="description" />
         <meta content="Themesbrand" name="author" />
-        <link rel="shortcut icon" href="{CDN_URL}{BRANCH}/assets/images/favicon.ico">
-        <script src="{CDN_URL}{BRANCH}/assets/js/layout.js"></script>
-        <link href="{CDN_URL}{BRANCH}/assets/css/bootstrap.min.css?v=1" rel="stylesheet" type="text/css" />
-        <link href="{CDN_URL}{BRANCH}/assets/css/icons.min.css?v=1" rel="stylesheet" type="text/css" />
-        <link href="{CDN_URL}{BRANCH}/assets/css/app.min.css?v=1" rel="stylesheet" type="text/css" />
-        <link href="{CDN_URL}{BRANCH}/assets/css/custom.min.css?v=1" rel="stylesheet" type="text/css" />
-
+        
+        {STYLES}
 
     </head>
 
@@ -750,9 +745,6 @@
                                             <a href="/lado-franquia/financeiro/extrato"  class="nav-link" data-key="t-horizontal">Extrato</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a href="/lado-franquia/financeiro/inserir-saldo"  class="nav-link" data-key="t-detached">Inserir Saldo</a>
-                                        </li>
-                                        <li class="nav-item">
                                             <a href="/lado-franquia/financeiro/solicitar-saque"  class="nav-link" data-key="t-two-column">Solicitar Saque</a>
                                         </li>
                                         
@@ -781,8 +773,7 @@
                                                     </li>
                                                 </ul>
                                             </div> -->
-                                        </li>
-                                    
+                                        </li>                                    
                                     </ul>
                                 </div>
                             </li>
@@ -1392,20 +1383,13 @@
             </div>
         </div>
 
-        <script type="text/javascript"  src="//code.jquery.com/jquery-3.2.1.min.js"></script>
-        <script type="text/javascript"  src="{CDN_URL}{BRANCH}/assets/libs/flatpickr/flatpickr.min.js"></script>
-        <script type="text/javascript"  src="{CDN_URL}{BRANCH}/assets/libs/choices.js/public/assets/scripts/choices.min.js"></script>
-        <script type="text/javascript"  src="{CDN_URL}{BRANCH}/assets/libs/bootstrap/js/bootstrap.bundle.min.js"></script>
-        <script type="text/javascript"  src="{CDN_URL}{BRANCH}/assets/libs/simplebar/simplebar.min.js"></script>
-        <script type="text/javascript"  src="{CDN_URL}{BRANCH}/assets/libs/node-waves/waves.min.js"></script>
-        <script type="text/javascript"  src="{CDN_URL}{BRANCH}/assets/libs/feather-icons/feather.min.js"></script>
-        <script type="text/javascript"  src="{CDN_URL}{BRANCH}/assets/js/pages/plugins/lord-icon-2.1.0.js"></script>
-        <script type="text/javascript"  src="{CDN_URL}{BRANCH}/assets/libs/apexcharts/apexcharts.min.js"></script>
-        <script type="text/javascript"  src="{CDN_URL}{BRANCH}/assets/libs/jsvectormap/js/jsvectormap.min.js"></script>
-        <script type="text/javascript"  src="{CDN_URL}{BRANCH}/assets/libs/jsvectormap/maps/world-merc.js"></script>
-        <script type="text/javascript"  src="{CDN_URL}{BRANCH}/assets/libs/swiper/swiper-bundle.min.js"></script>
-        <!-- <script type="text/javascript"  src="{CDN_URL}{BRANCH}/assets/js/pages/dashboard-ecommerce.init.js?v=1"></script> -->
-        <script type="text/javascript"  src="{CDN_URL}{BRANCH}/assets/js/app.js"></script>
+        {SCRIPTS}
+        <script src="{CDN_URL}{BRANCH}/assets/libs/bootstrap/js/bootstrap.bundle.min.js"></script>
+        <script src="{CDN_URL}{BRANCH}/assets/libs/simplebar/simplebar.min.js"></script>
+        <script src="{CDN_URL}{BRANCH}/assets/libs/node-waves/waves.min.js"></script>
+        <script src="{CDN_URL}{BRANCH}/assets/libs/feather-icons/feather.min.js"></script>
+        <script src="{CDN_URL}{BRANCH}/assets/js/pages/plugins/lord-icon-2.1.0.js"></script>
+        <script src="{CDN_URL}{BRANCH}/assets/js/plugins.js"></script>
     </body>
 </html>
 <!-- END DESKTOP -->
